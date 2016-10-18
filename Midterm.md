@@ -1,5 +1,7 @@
 # Midterm Game Programming
 
+## Introduction and Game Engine
+
 ### Write at least two benefits that you gain when using a game engine for your game development. 
   - Reusable software components
   - most of the game engine are  Cross platform where u have to do little work to port ur game.
@@ -18,3 +20,43 @@
   - Delta3D.
   - Panda 3D
   - Wolfenstein 3D engine
+  
+## Unity game engine questions
+
+### Write at least two distinct features of Unity game engine compared to other Game Engines.
+  - Unity supports Animation with models better than any other game engine
+  - cross platform is much simpler.
+  - the interface for user are much simpler that can be learnt at ease.
+  - one click deployment
+  - Asset store is one of the big plus for unity that makes Unity more distinct
+
+### Define “Assets”. Give examples of art assets ?
+  - all the content (models, animations, sounds, AI, and physics) which are called 'assets‘
+
+### prefabs? 
+  - Unity has a Prefab asset type that allows you to store a GameObject object complete with components and properties. 
+  - The prefab acts as a template from which you can create new object instances in the scene. 
+  - Any edits made to a prefab asset are immediately reflected in all instances produced from it but you can also override components and settings for each instance individually.
+ 
+### HUD ? 
+  - heads up display 
+  - it is a 2d View mostly helpfull to build our GUI.
+
+### NPC
+  - Non Player Character
+  - it means any character that player cant control. eg: AI that wanders around and has its own behavior.
+
+### NavMesh Baking
+  - The process of creating a NavMesh from the level geometry is called NavMesh Baking. 
+  - The process collects the Render Meshes and Terrains of all Game Objects which are marked as Navigation Static, and then processes them to create a navigation mesh that approximates the walkable surfaces of the level.
+
+### What are three types of lights in Unity? Which light is like the Sun in real world?
+  - point lights 
+  - spot lights
+  - directional lights (Sun in real world)
+  - emisive lights
+  - area lights
+  - ambient light
+
+### In the following code segment, what does [SerializeField] attribute do?
+    [SerializeField] private float speed;
