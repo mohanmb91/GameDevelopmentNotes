@@ -81,3 +81,6 @@
 ### What is raycasting? Describe when (for what purpose) you use it for your homework?
    - it means casting a ray from the given origin to the specified direction with specified distance. the ray will collect all the information about the collider object. ray can be casted from the origin to the mentioned direction infinitly.
    - In our homework we used it to cast a ray from player character to infinite distance to get the information on what we are shooting at.
+   
+### Coroutine
+  - A coroutine is like a function that has the ability to pause execution and return control to Unity but then to continue where it left off on the following frame
