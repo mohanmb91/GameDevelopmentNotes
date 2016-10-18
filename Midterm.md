@@ -60,3 +60,4 @@
 
 ### In the following code segment, what does [SerializeField] attribute do?
     [SerializeField] private float speed;
+   - this means the speed variable is private in its script but serilize field enables us to manipulate the speed from the inspector. 
