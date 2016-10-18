@@ -61,3 +61,23 @@
 ### In the following code segment, what does [SerializeField] attribute do?
     [SerializeField] private float speed;
    - this means the speed variable is private in its script but serilize field enables us to manipulate the speed from the inspector. 
+
+### What does the code segment do?
+    using UnityEngine;
+    using System.Collections;
+    public class Unknown : MonoBehaviour {
+    public float speed = 3.0f;
+    void Update() {
+    transform.Rotate(0, speed, 0);
+    }
+    }
+  - if this script is attached to an cube it will rotate the cube to its own y-axis.
+
+### What does the code segment do?
+      transform.Rotate(0, speed, 0);
+      transform.Rotate(0, speed, 0, Space.World);
+  - adding Space.World will rotate the object to World y axis not the object y-axis.
+  
+### What is raycasting? Describe when (for what purpose) you use it for your homework?
+   - it means casting a ray from the given origin to the specified direction with specified distance. the ray will collect all the information about the collider object. ray can be casted from the origin to the mentioned direction infinitly.
+   - In our homework we used it to cast a ray from player character to infinite distance to get the information on what we are shooting at.
